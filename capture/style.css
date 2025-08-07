@@ -1,0 +1,43 @@
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+.image{
+position: relative;
+}
+.cart{
+    
+    
+    margin: 20px;
+    background-color: white;
+}
+#small{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    border: 4px solid white;
+}
+#hero{
+    width: 100%;
+}
+#hr{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+}
+.prag{
+    color: #938f8f;
+}
+.content{
+    padding: 20px;
+}
